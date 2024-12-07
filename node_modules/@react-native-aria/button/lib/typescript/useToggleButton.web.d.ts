@@ -1,0 +1,9 @@
+import { ElementType } from 'react';
+import { AriaToggleButtonProps } from '@react-types/button';
+import { ToggleState } from '@react-stately/toggle';
+/**
+ * Provides the behavior and accessibility implementation for a toggle button component.
+ * ToggleButtons allow users to toggle a selection on or off, for example switching between two states or modes.
+ */
+export declare function useToggleButton(props: AriaToggleButtonProps<ElementType>, state: ToggleState): any;
+//# sourceMappingURL=useToggleButton.web.d.ts.map
